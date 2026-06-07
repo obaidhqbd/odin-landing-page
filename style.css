@@ -97,11 +97,11 @@ nav {
     height: 300px;
     width: 500px;
     flex-basis: 49%;
+    flex-grow: 1;
     background-color: #c9bcbc;
     border-radius: 11px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    display: grid;
+    place-items: center;
 }
 .right_hero p{
     text-align: center;
