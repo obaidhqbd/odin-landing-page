@@ -64,6 +64,7 @@ nav {
     display: flex;
     align-items: center;
     margin: 10%;
+    height: 100%;
 }
 
 .left_hero {
@@ -93,12 +94,19 @@ nav {
 }
 
 .right_hero {
-    height: 100%;
-    width: 100%;
+    height: 300px;
+    width: 500px;
+    flex-grow: 1;
     flex-basis: 49%;
-    background: #c9bcbc;
+    background-color: #c9bcbc;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
-
+.right_hero p{
+    text-align: center;
+}
 .box {
     padding: 41px 10%;
 }
