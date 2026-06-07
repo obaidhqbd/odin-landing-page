@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    --bg: #1f2937;
+    --HMTxt: #f9faf8;
+    --HSandQTxt: #f9faf8;
+    --btn: #3882f6;
+    --IHTxt: #1f2937;
+    --QTxt: #1f2937;
+    --HSandHLTxt: #e5e7eb;
+}
+
+nav {
+    background: var(--bg);
+    height: 56px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo_container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 24px;
+}
+
+.logo_container h1 {
+    font-size: 24px;
+    color: var(--HMTxt);
+}
+
+.link_container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.link_container a {
+    text-decoration: none;
+    color: var(--HSandHLTxt);
+    font-size: 18px;
+}
+
+/* Hero section styles */
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 1.5%;
+    background: var(--bg);
+}
+
+.hero_inner {
+    display: flex;
+    align-items: center;
+    margin: 10%;
+}
+
+.left_hero {
+    flex-basis: 49%;
+}
+
+.left_hero h2 {
+    font-size: 48px;
+    color: var(--HMTxt);
+    margin-bottom: 10px;
+}
+
+.left_hero p {
+    color: var(--HSandHLTxt);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.left_hero button {
+    background: var(--btn);
+    height: 41px;
+    width: 121px;
+    text-align: center;
+    color: var(--HMTxt);
+    border-radius: 11px;
+    border: none;
+}
+
+.right_hero {
+    height: 100%;
+    width: 100%;
+    flex-basis: 49%;
+    background: #c9bcbc;
+}
+
+.box {
+    padding: 41px 10%;
+}
+
+.box h1 {
+    text-align: center;
+    font-size: 36px;
+    color: var(--IHTxt);
+    margin-bottom: 41px;
+}
+
+.inner_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.inner {
+    height: 250px;
+    width: 250px;
+    border: 5px solid var(--btn);
+    border-radius: 10%;
+    margin-bottom: 21px;
+}
+
+.box_1 {
+    text-align: center;
+}
+
+.quote {
+    background: var(--HSandQTxt);
+    height: 300px;
+    padding: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.quote_txt {
+    max-width: 650px;
+    margin: 0 auto;
+    color: var(--QTxt);
+}
+
+.quote_txt p {
+    font-weight: 300;
+}
+
+.customer_name {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 21px;
+    color: var(--QTxt);
+}
+
+.sign_up {
+    padding: 11% 0;
+
+}
+
+.inner_signup {
+    background: var(--btn);
+    height: 100px;
+    margin: 0 10%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 11%;
+}
+
+.inner_signup button {
+    width: 111px;
+    height: 29px;
+    border-radius: 5px;
+    border: 3px solid var(--HSandHLTxt);
+    background: var(--btn);
+    margin-right: 0;
+}
+
+.sign_text h3 {
+    color: var(--HMTxt);
+    font-size: 23px;
+}
+
+.sign_text p {
+    color: var(--HSandHLTxt);
+    font-size: 16px;
+}
+
+footer {
+    background: var(--bg);
+    height: 81px;
+    color: var(--HMTxt);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
