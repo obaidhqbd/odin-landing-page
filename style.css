@@ -96,7 +96,6 @@ nav {
 .right_hero {
     height: 300px;
     width: 500px;
-    flex-grow: 1;
     flex-basis: 49%;
     background-color: #c9bcbc;
     border-radius: 11px;
